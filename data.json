@@ -1,0 +1,58 @@
+{
+	"nlmDisclaimer": "It is not the intention of NLM to provide specific medical advice, but rather to provide users with information to better understand their health and their medications. NLM urges you to consult with a qualified physician for advice about medications.",
+	"fullInteractionTypeGroup": [
+		{
+			"sourceDisclaimer": "DrugBank is intended for educational and scientific research purposes only and you expressly acknowledge and agree that use of DrugBank is at your sole risk. The accuracy of DrugBank information is not guaranteed and reliance on DrugBank shall be at your sole risk. DrugBank is not intended as a substitute for professional medical advice, diagnosis or treatment..[www.drugbank.ca]",
+			"sourceName": "DrugBank",
+			"fullInteractionType": [
+				{
+					"comment": "Drug1 (rxcui = 135446, name = Aricept, tty = BN). Drug2 (rxcui = 202433, name = Tylenol, tty = BN). Drug1 is resolved to donepezil, Drug2 is resolved to acetaminophen and interaction asserted in DrugBank between Donepezil and Acetaminophen.",
+					"minConcept": [
+						{
+							"rxcui": "135446",
+							"name": "Aricept",
+							"tty": "BN"
+						},
+						{
+							"rxcui": "202433",
+							"name": "Tylenol",
+							"tty": "BN"
+						}
+					],
+					"interactionPair": [
+						{
+							"interactionConcept": [
+								{
+									"minConceptItem": {
+										"rxcui": "135447",
+										"name": "donepezil",
+										"tty": "IN"
+									},
+									"sourceConceptItem": {
+										"id": "DB00843",
+										"name": "Donepezil",
+										"url": "https://go.drugbank.com/drugs/DB00843#interactions"
+									}
+								},
+								{
+									"minConceptItem": {
+										"rxcui": "161",
+										"name": "acetaminophen",
+										"tty": "IN"
+									},
+									"sourceConceptItem": {
+										"id": "DB00316",
+										"name": "Acetaminophen",
+										"url": "https://go.drugbank.com/drugs/DB00316#interactions"
+									}
+								}
+							],
+							"severity": "N/A",
+							"description": "The metabolism of Donepezil can be decreased when combined with Acetaminophen."
+						}
+					]
+				}
+			]
+		}
+	]
+}

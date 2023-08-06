@@ -1,0 +1,1 @@
+python get_drug_interaction_fromlist.py --drug Tylenol,Aricept --source DrugBank --output ./data.json
