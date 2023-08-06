@@ -1,5 +1,10 @@
 # rxnorm_api
 Rxnorm Drug Interaction API module
+## Requirements
+
+  - requests
+  - json
+  - pandas
 
 ## drug_interaction_fromlist.py
 Example : drug = Tylenol, Aricept / source = DrugBank / output = ./data.json
